@@ -1,0 +1,442 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+/* @media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+} */
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    10. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --primaryBGcolor: #060606;
+  --secondaryBGcolor: #141414;
+  --accentcolor: #ff014f;
+  --primaryTextcolor: #fbfbfb;
+  --secondaryTextcolor: #9f9f9f;
+  --defaultFontWeight: 650;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: var(--primaryBGcolor);
+  color: var(--primaryTextcolor);
+  font-weight: var(--defaultFontWeight);
+}
+
+a {
+  color: var(--primaryTextcolor);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--accentcolor);
+  color: var(--primaryTextcolor);
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    padding-left 0.3s ease;
+}
+
+button i {
+  color: var(--primaryTextcolor);
+}
+
+button:hover {
+  background-color: var(--secondaryBGcolor);
+  color: var(--accentcolor);
+  padding-left: 20px;
+}
+
+.blur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(54, 54, 54, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+}
+
+.profile-image-container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-info {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.expertise-section {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 1rem;
+}
+
+.expertise-item {
+  border: 0.1px solid var(--accentcolor);
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expertise-item p {
+  color: var(--secondaryTextcolor);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+i {
+  color: var(--accentcolor);
+  font-size: 2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.animated-links {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.animated-links::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--accentcolor);
+  transition: width 0.3s ease;
+}
+
+.animated-links:hover {
+  color: var(--accentcolor);
+}
+.animated-links:hover::after {
+  width: 100%;
+}
+
+#about {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 20px;
+  background: radial-gradient(
+    circle at 120% 150%,
+    var(--accentcolor) 0%,
+    var(--secondaryBGcolor) 40%,
+    var(--secondaryBGcolor) 100%
+  );
+}
+
+#about h1 {
+  font-size: 2.5rem;
+  align-self: center;
+}
+
+.mini-sections {
+  margin: 0 auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.mini-sections > h1 {
+  font-size: 2.5rem;
+  align-self: center;
+}
+
+#skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  gap: 2rem;
+  background-color: var(--secondaryBGcolor);
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--primaryBGcolor);
+  overflow: hidden;
+}
+
+.skill-item img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-item img:hover {
+  transform: translateY(-5px);
+}
+
+.project-filter-container {
+  position: relative;
+  margin: 0 auto;
+  width: fit-content;
+  border-radius: 3.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  background-color: var(--secondaryBGcolor);
+}
+
+.project-filter-container div {
+  /* margin-top: 15px; */
+  display: flex;
+  gap: 0.6rem;
+  z-index: 2;
+}
+
+.project-filter-container i {
+  font-size: 1.2rem;
+}
+
+.project-filter-slider {
+  width: auto;
+  height: auto;
+  background-color: #ff014f;
+  border-radius: 10px;
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.2;
+  z-index: 0;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+.project-image-container {
+  position: relative;
+  flex: 1;
+  max-width: 30vw;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.project-image-container img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  transition: transform 0.3s ease;
+}
+
+.project-image-container img:hover {
+  transform: scale(1.05);
+}
+
+.project-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff014da7;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.project-tag:hover {
+  background-color: #ff014f;
+  cursor: pointer;
+}
+
+.project-tag i {
+  margin-right: 0.5rem;
+  color: var(--primaryTextcolor);
+  font-size: 1rem;
+}
+
+.project-container {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: var(--secondaryBGcolor);
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.project-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.project-details h1 {
+  font-size: 2rem;
+}
+
+.project-details p {
+  color: var(--secondaryTextcolor);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.used-stack-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.used-stack {
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: var(--primaryBGcolor);
+  transition: border 0.6s ease;
+  cursor: pointer;
+}
+
+.used-stack:hover {
+  border: 0.1px solid var(--accentcolor);
+}
+
+.button-links {
+  padding-top: 1rem;
+  margin: 0 auto;
+  color: var(--primaryTextcolor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.button-links a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.button-links a:hover {
+  transform: rotate(360deg);
+}
