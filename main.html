@@ -19,7 +19,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Raw Portfolio</title>
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="nav.css" />
     <script src="main.js" defer></script>
   </head>
 
@@ -195,6 +194,7 @@
             LinkedIn
           </a>
         </div>
+        <button><a href="login.html">Admin Login</a></button>
       </div>
 
       <!-- Overlay -->
@@ -231,13 +231,14 @@
               <button>
                 See ma dihhh<i
                   class="fa-solid fa-arrow-right"
-                  style="font-size: 1em"
+                  style="font-size: 1em; margin-left: 0.5rem"
                 ></i>
               </button>
             </div>
           </div>
         </div>
       </section>
+
       <section id="expertise" class="mini-sections slide-in">
         <h1>Experties</h1>
         <div class="expertise-section">
@@ -263,6 +264,7 @@
           </div>
         </div>
       </section>
+
       <section id="about" class="slide-in">
         <h1>About Me</h1>
         <p>
@@ -280,6 +282,7 @@
           collaborate on a project.
         </p>
       </section>
+
       <section id="skill-container" class="mini-sections">
         <h1>Skills</h1>
         <div class="skill-set slide-in">
@@ -413,6 +416,7 @@
           </div>
         </div>
       </section>
+
       <section id="education" class="mini-sections slide-in">
         <h1>Education</h1>
         <div class="edu-container">
@@ -691,7 +695,10 @@
             </div>
           </div>
           <div class="contact-column">
-            <form action="">
+            <form
+              action=""
+              style="display: flex; flex-direction: column; align-items: center"
+            >
               <div
                 style="
                   display: flex;
@@ -723,7 +730,9 @@
                 required
                 style="width: 100%"
               ></textarea>
-              <button type="submit">Send Message</button>
+              <button style="width: fit-content" type="submit">
+                Send Message
+              </button>
             </form>
           </div>
         </div>
