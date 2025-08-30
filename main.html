@@ -535,6 +535,7 @@
               </p>
               <p>Isseued on: <span>31 July, 2025</span></p>
               <p>Issued by: <span>Microsoft</span></p>
+              <p>Tags: <span>Web Dev, UI/UX</span></p>
               <div
                 style="
                   display: flex;
@@ -709,28 +710,37 @@
                 <input
                   type="text"
                   name="name"
-                  id="name"
+                  id="txtName"
+                  runat="server"
                   placeholder="Your Name"
                   required
                 />
                 <input
                   type="email"
                   name="email"
-                  id="email"
+                  id="txtEmail"
+                  runat="server"
                   placeholder="Your Email"
                   required
                 />
               </div>
               <textarea
                 name="message"
-                id="message"
+                id="txtMessage"
+                runat="server"
                 cols="30"
                 rows="10"
                 placeholder="Your Message"
                 required
                 style="width: 100%"
               ></textarea>
-              <button style="width: fit-content" type="submit">
+              <button
+                style="width: fit-content"
+                type="submit"
+                id="btnSend"
+                runat="server"
+                OnClick="btnSend_Click"
+              >
                 Send Message
               </button>
             </form>

@@ -7,13 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <script src="main.js" defer></script>
@@ -21,7 +18,10 @@
   <body>
     <div class="mini-sections">
       <h1>Edit Project</h1>
-      <form style="display: flex; flex-direction: column">
+      <form
+        class="addSthForm"
+        style="display: flex; flex-direction: column; gap: 1rem"
+      >
         <div>
           <label>Project Image URL: </label>
           <input type="text" id="img" name="img" />
@@ -30,8 +30,8 @@
           <label>Project Title: </label>
           <input type="text" id="title" name="title" />
         </div>
-        <div style="display: flex; align-items: center">
-          <label>Project Description: </label>
+        <div>
+          <label>Description: </label>
           <textarea id="desc" name="desc" rows="4" cols="100"></textarea>
         </div>
         <div>
@@ -40,19 +40,30 @@
         </div>
         <div>
           <label>Stacks (comma separated): </label>
-          <input type="text" id="stacks" name="stacks" />
+          <input type="text" id="issuedOn" name="issuedOn" />
         </div>
         <div>
-          <label>Links (comma separated): </label>
+          <label>Github Link: </label>
+          <input type="text" id="issuedBy" name="issuedBy" />
+        </div>
+        <div>
+          <label>Website Link: </label>
           <input type="text" id="links" name="links" />
         </div>
-        <div style="display: flex; justify-content: flex-end; gap: 1rem">
-          <button style="width: fit-content" type="submit">Cancel</button>
+        <div
+          style="
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            flex-direction: row;
+          "
+        >
+          <button style="width: fit-content" type="button">Cancel</button>
           <button
             style="width: fit-content; background-color: green"
             type="submit"
           >
-            Save Changes
+            Save Project
           </button>
         </div>
       </form>

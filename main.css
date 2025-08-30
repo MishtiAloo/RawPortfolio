@@ -886,7 +886,7 @@ body.menu-open {
   width: 100%;
   display: flex;
   flex-direction: column;
-
+  margin: 1rem 1rem;
   gap: 1rem;
   border-radius: 10px;
   padding: 2rem;
@@ -911,4 +911,23 @@ body.menu-open {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+}
+
+.addSthForm div {
+  display: flex;
+  flex-direction: column;
+}
+
+.addSthForm input {
+  margin-left: 0;
+}
+
+.addSthForm {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 40vw;
+  background-color: var(--secondaryBGcolor);
+  padding: 2rem;
+  border-radius: 20px;
 }

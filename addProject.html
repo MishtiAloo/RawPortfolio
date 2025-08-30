@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Edit Certificate</title>
+    <title>Add Project</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -17,17 +17,17 @@
   </head>
   <body>
     <div class="mini-sections">
-      <h1>Edit Certificate</h1>
+      <h1>Add Project</h1>
       <form
         class="addSthForm"
         style="display: flex; flex-direction: column; gap: 1rem"
       >
         <div>
-          <label>Certificate Image URL: </label>
+          <label>Project Image URL: </label>
           <input type="text" id="img" name="img" />
         </div>
         <div>
-          <label>Certificate Title: </label>
+          <label>Project Title: </label>
           <input type="text" id="title" name="title" />
         </div>
         <div>
@@ -39,15 +39,15 @@
           <input type="text" id="tags" name="tags" />
         </div>
         <div>
-          <label>Issued On (date): </label>
-          <input type="date" id="issuedOn" name="issuedOn" />
+          <label>Stacks (comma separated): </label>
+          <input type="text" id="issuedOn" name="issuedOn" />
         </div>
         <div>
-          <label>Issued By: </label>
+          <label>Github Link: </label>
           <input type="text" id="issuedBy" name="issuedBy" />
         </div>
         <div>
-          <label>Links: </label>
+          <label>Website Link: </label>
           <input type="text" id="links" name="links" />
         </div>
         <div
@@ -63,7 +63,7 @@
             style="width: fit-content; background-color: green"
             type="submit"
           >
-            Save Certificate
+            Add Project
           </button>
         </div>
       </form>
