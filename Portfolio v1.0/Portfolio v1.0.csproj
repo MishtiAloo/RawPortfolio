@@ -170,6 +170,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\Certs\Dc testimonial.pdf" />
+    <Content Include="assets\Certs\Dean_s Award 1st year.pdf" />
+    <Content Include="assets\Certs\HSC transcript.pdf" />
+    <Content Include="assets\Certs\IKPC Cert.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -57,3 +57,62 @@ D:\VS Project\Portfolio v1.0\obj\Debug\Portfolio v1.0.csproj.CoreCompileInputs.c
 D:\VS Project\Portfolio v1.0\obj\Debug\Portfoli.DBD8FFF0.Up2Date
 D:\VS Project\Portfolio v1.0\obj\Debug\Portfolio v1.0.dll
 D:\VS Project\Portfolio v1.0\obj\Debug\Portfolio v1.0.pdb
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\Portfolio v1.0.dll.config
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\Portfolio v1.0.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\Portfolio v1.0.pdb
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\csc.exe
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\csc.exe.config
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\csc.rsp
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\csi.exe
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\csi.exe.config
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\csi.rsp
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.Managed.Core.targets
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.AppContext.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Collections.Immutable.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Console.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Globalization.Calendars.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.IO.Compression.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.IO.FileSystem.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Net.Http.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Net.Sockets.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Reflection.Metadata.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.ValueTuple.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Xml.XmlDocument.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Xml.XPath.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\vbc.exe
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\vbc.exe.config
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\vbc.rsp
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\VBCSCompiler.exe
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\roslyn\VBCSCompiler.exe.config
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\obj\Debug\Portfolio v1.0.csproj.AssemblyReference.cache
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\obj\Debug\Portfolio v1.0.csproj.CoreCompileInputs.cache
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\obj\Debug\Portfoli.DBD8FFF0.Up2Date
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\obj\Debug\Portfolio v1.0.dll
+E:\VSC projects\MERN Prac\RawPortfolio\Portfolio v1.0\obj\Debug\Portfolio v1.0.pdb

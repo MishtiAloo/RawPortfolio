@@ -176,7 +176,7 @@
             Mail Me: f.tahmid123@gmail.com</a
           >
 
-          <a class="animated-links" href="#contact">
+          <a class="animated-links" href="https://github.com/MishtiAloo">
             <i
               style="font-size: 1rem; margin-right: 3px"
               class="fa-solid fa-code-branch"
@@ -184,7 +184,7 @@
             Github
           </a>
 
-          <a class="animated-links" href="#contact">
+          <a class="animated-links" href="https://linkedin.com/in/farhan-tahmid-100387332">
             <i
               style="font-size: 1rem; margin-right: 3px"
               class="fa-solid fa-arrow-up-right-from-square"
@@ -213,24 +213,20 @@
           <div class="blur-overlay">
             <div class="profile-info">
               <p style="font-size: 2rem; margin-bottom: -2rem">Hello</p>
-              <p style="font-size: 4rem">I am web</p>
+              <p style="font-size: 4rem">I am Farhan Tahmid</p>
               <p style="font-size: 2rem; padding-bottom: 1rem">
-                I am <span style="color: #ff014f">Useless</span>
+                I am <span style="color: #ff014f">Web Developer</span>
               </p>
               <p style="width: 60%; padding-bottom: 1rem">
-                যদি রাত পোহালে শোনা যেত বঙ্গবন্ধু মরে নাই যদি রাজপথে আবার মিছিল
-                হতো বঙ্গবন্ধুর মুক্তি চাই, মুক্তি চাই, মুক্তি চাই.. তবে বিশ্ব
-                পেত এক মহান নেতা আমরা পেতাম ফিরে জাতির পিতা যে মানুষ ভীরু
-                কাপুরুষের মতো করেনিতো কখনো মাথা নত এনেছিল হায়েনার ছোবল থেকে...
-                আমাদের প্রিয় স্বাধীনতা, স্বাধীনতা, স্বাধীনতা... তবে বিশ্ব পেত এক
-                মহান নেতা আমরা পেতাম ফিরে জাতির পিতা যদি রাত পোহালে শোনা যেত
-                বঙ্গবন্ধু মরে নাই কে আছে বাঙ্গালি তার সমতুল্য ইতিহাস একদিন দেবে
-                তার মুল্য কে আছে বাঙ্গালি তার সমতুল্য ইতিহাস একদিন দেবে তার
-                মুল্য সত্যকে মিথ্যার আড়াল করে... যায় কি রাখা কখনো তা কখনো তা,
-                কখনো তা...
+                I am a passionate Computer Science and Engineering undergraduate exploring the MERN stack, 
+                Android development with Java, and the exciting field of AI/ML. 
+                  I enjoy transforming ideas into practical solutions, whether it’s building responsive 
+                  web applications, mobile apps, or database-driven systems. My interests lie in creating projects that not only 
+                  work efficiently but also make a real-world impact. I am always open to collaboration, 
+                  new challenges, and opportunities to grow as a developer and innovator.
               </p>
               <button>
-                See ma dihhh<i
+                See my CV<i
                   class="fa-solid fa-arrow-right"
                   style="font-size: 1em; margin-left: 0.5rem"
                 ></i>
@@ -246,22 +242,22 @@
           <div class="expertise-item">
             <i class="fa-solid fa-globe"></i>
             <h2 class="animated-links">Web Development</h2>
-            <p>169 projects</p>
+            <p>2 projects</p>
           </div>
           <div class="expertise-item">
             <i class="fa-solid fa-screwdriver-wrench"></i>
             <h2 class="animated-links">Programming</h2>
-            <p>169 projects</p>
+            <p>2 projects</p>
           </div>
           <div class="expertise-item">
             <i class="fa-solid fa-mobile-screen"></i>
             <h2 class="animated-links">Android Development</h2>
-            <p>169 projects</p>
+            <p>1 projects</p>
           </div>
           <div class="expertise-item">
             <i class="fa-solid fa-network-wired"></i>
             <h2 class="animated-links">Machine Learning</h2>
-            <p>169 projects</p>
+            <p>0 projects</p>
           </div>
         </div>
       </section>
@@ -269,19 +265,20 @@
       <section id="about" class="slide-in">
         <h1>About Me</h1>
         <p>
-          I am a web developer with a passion for creating beautiful and
-          functional websites. I have experience in HTML, CSS, JavaScript, and
-          various frameworks.
+          I am a Computer Science and Engineering undergraduate with a strong interest 
+          in building practical and impactful solutions. I have experience working with 
+          the MERN stack, Android development (Java), and database-driven projects.
         </p>
         <p>
-          I love to learn new technologies and improve my skills. In my free
-          time, I enjoy reading books, playing video games, and exploring the
-          outdoors.
+          I am currently exploring Artificial Intelligence and Machine Learning, while 
+          also strengthening my skills in software design and full-stack development. 
+          I enjoy turning ideas into real-world applications that solve meaningful problems.
         </p>
         <p>
-          Feel free to reach out if you have any questions or want to
-          collaborate on a project.
+          Feel free to connect with me if you’d like to discuss technology, collaborate 
+          on projects, or share innovative ideas.
         </p>
+
       </section>
 
       <section id="skill-container" class="mini-sections">
@@ -424,16 +421,16 @@
           <div class="edu-row slide-in">
             <div class="edu-item shimmer" style="align-self: flex-start">
               <h2 class="animated-links">
-                BSC Engg. in CSE Science and Engineering
+                BSC Engg. in Computer Science and Engineering
               </h2>
-              <p>XYZ High School</p>
+              <p>Khulna University of Engineering & Technology</p>
               <p
                 style="font-style: italic; font-weight: 300; font-size: 1.1rem"
               >
-                Graduated: 2018
+                Graduation: 2026 (estimated)
               </p>
               <p style="color: rgb(209, 181, 27); font-size: 1.5rem">
-                GPA: 3.8
+                Current CGPA: 3.81
               </p>
             </div>
 
@@ -450,7 +447,7 @@
                 alt=""
                 style="width: 8rem; height: 8rem"
               />
-              <p>2018-2028</p>
+              <p>2022-20XX</p>
             </div>
           </div>
           <div class="edu-row slide-in" style="justify-content: space-between">
@@ -462,7 +459,7 @@
                 margin-left: auto;
               "
             >
-              <p>2018-2028</p>
+              <p>2019-2021</p>
               <img
                 src="assets/kuetLogo.png"
                 alt=""
@@ -472,32 +469,32 @@
 
             <div class="edu-item shimmer">
               <h2 class="animated-links">
-                BSC Engg. in CSE Science and Engineering
+                HSC in Science
               </h2>
-              <p>XYZ High School</p>
+              <p>Dhaka College</p>
               <p
                 style="font-style: italic; font-weight: 300; font-size: 1.1rem"
               >
-                Graduated: 2018
+                Passed: 2021
               </p>
               <p style="color: rgb(209, 181, 27); font-size: 1.5rem">
-                GPA: 3.8
+                GPA: 5.00
               </p>
             </div>
           </div>
           <div class="edu-row slide-in">
             <div class="edu-item shimmer" style="align-self: flex-start">
               <h2 class="animated-links">
-                BSC Engg. in CSE Science and Engineering
+                SSC in Science
               </h2>
-              <p>XYZ High School</p>
+              <p>Dhanmondi Govt. Boys' High School</p>
               <p
                 style="font-style: italic; font-weight: 300; font-size: 1.1rem"
               >
-                Graduated: 2018
+                Passed: 2019
               </p>
               <p style="color: rgb(209, 181, 27); font-size: 1.5rem">
-                GPA: 3.8
+                GPA: 5.00
               </p>
             </div>
 
@@ -514,7 +511,7 @@
                 alt=""
                 style="width: 8rem; height: 8rem"
               />
-              <p>2018-2028</p>
+              <p>2018-2019</p>
             </div>
           </div>
         </div>
@@ -548,7 +545,7 @@
       <section id="projects" class="mini-sections slide-in">
         <h1>Projects</h1>
         <div class="project-filter-container slide-in">
-          <div class="project-filter-slider"></div>
+           <div class="project-filter-slider"></div>
           <div>
             <i class="fa-solid fa-filter"></i>
             <span class="animated-links">All</span>
