@@ -225,12 +225,12 @@
                   work efficiently but also make a real-world impact. I am always open to collaboration, 
                   new challenges, and opportunities to grow as a developer and innovator.
               </p>
+            <a href="assets/Farhan Tahmid CV-main.pdf" target="_blank" rel="noopener noreferrer">
               <button>
-                See my CV<i
-                  class="fa-solid fa-arrow-right"
-                  style="font-size: 1em; margin-left: 0.5rem"
-                ></i>
+                See my CV
+                <i class="fa-solid fa-arrow-right" style="font-size: 1em; margin-left: 0.5rem"></i>
               </button>
+            </a>
             </div>
           </div>
         </div>
