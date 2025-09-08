@@ -23,7 +23,7 @@
 <body>
   <nav class="nav-container">
       <div class="logo">
-        <a href="#about">My Portfolio</a>
+        <a href="#about">Farhan Tahmid</a>
       </div>
 
       <div class="navlinks">
@@ -168,7 +168,7 @@
             ></i>
             Call Me: 01932323650</a
           >
-          <a class="animated-links" href="#expertise">
+          <a class="animated-links" href="#contact">
             <i
               style="font-size: 1rem; margin-right: 3px"
               class="fa-solid fa-envelope"
@@ -215,7 +215,7 @@
               <p style="font-size: 2rem; margin-bottom: -2rem">Hello</p>
               <p style="font-size: 4rem">I am Farhan Tahmid</p>
               <p style="font-size: 2rem; padding-bottom: 1rem">
-                I am <span style="color: #ff014f">Web Developer</span>
+                I am <span id="role" style="color: #ff014f; display: inline-block; white-space: nowrap;"></span>
               </p>
               <p style="width: 60%; padding-bottom: 1rem">
                 I am a passionate Computer Science and Engineering undergraduate exploring the MERN stack, 
@@ -668,19 +668,19 @@
                 margin: 1rem 5rem;
               "
             ></div>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="https://github.com/MishtiAloo">
               <div class="social-links">
                 <img src="assets/github.png" alt="" />
                 <p class="animated-links">Github Profile</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="https://www.linkedin.com/in/farhan-tahmid-100387332/">
               <div class="social-links">
                 <img src="assets/linkedin-logo.png" alt="" />
                 <p class="animated-links">LinkedIn Profile</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="https://codeforces.com/profile/XiliamRed">
               <div class="social-links">
                 <img src="assets/code-forces.png" alt="" />
                 <p class="animated-links">CodeForces</p>
@@ -692,7 +692,7 @@
                 <p class="animated-links">LeetCode Profile</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="https://www.kaggle.com/mishtialoo">
               <div class="social-links">
                 <img src="assets/kaggle.png" alt="" />
                 <p class="animated-links">Kaggle Profile</p>
@@ -709,31 +709,31 @@
                 margin: 1rem 5rem;
               "
             ></div>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="#">
               <div class="social-links">
                 <img src="assets/Phone.png" alt="" />
                 <p class="animated-links">01932323650</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="https://www.facebook.com/farhan.tahmid.9210/">
               <div class="social-links">
                 <img src="assets/facebook-logo.png" alt="" />
                 <p class="animated-links">Facebook</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="https://www.instagram.com/qing_of_spades/">
               <div class="social-links">
                 <img src="assets/instagram-logo.png" alt="" />
                 <p class="animated-links">Instagram</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="#">
               <div class="social-links">
                 <img src="assets/whatsapp-logo.png" alt="" />
                 <p class="animated-links">WhatsApp</p>
               </div>
             </a>
-            <a href="https://iconscout.com/all-assets/call">
+            <a href="#">
               <div class="social-links">
                 <img src="assets/telegram-logo.png" alt="" />
                 <p class="animated-links">Telegram</p>

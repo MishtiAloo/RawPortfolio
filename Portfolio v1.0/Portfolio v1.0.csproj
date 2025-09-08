@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\android.png" />
+    <Content Include="assets\Certs\Dc testimonial-1.png" />
+    <Content Include="assets\Certs\Dean_s Award 1st year-1.png" />
+    <Content Include="assets\Certs\HSC transcript-1.png" />
+    <Content Include="assets\Certs\IKPC Cert-1.png" />
     <Content Include="assets\code-forces.png" />
     <Content Include="assets\coffee-1.png" />
     <Content Include="assets\cp.png" />
@@ -170,10 +174,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\Certs\Dc testimonial.pdf" />
-    <Content Include="assets\Certs\Dean_s Award 1st year.pdf" />
-    <Content Include="assets\Certs\HSC transcript.pdf" />
-    <Content Include="assets\Certs\IKPC Cert.pdf" />
     <Content Include="assets\Farhan Tahmid CV-main.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">

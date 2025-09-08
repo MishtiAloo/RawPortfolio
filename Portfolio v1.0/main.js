@@ -191,3 +191,37 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     }
   );
 });
+
+
+const roles = [
+    "Web Developer",
+    "M/L Enthusiast",
+    "Android Developer",
+    "Hardware Developer"
+];
+
+let index = 0;
+const roleSpan = document.getElementById("role");
+
+function showRole() {
+    roleSpan.style.opacity = 0;
+    setTimeout(() => {
+        roleSpan.textContent = roles[index];
+        roleSpan.style.transform = "translateX(100%)"; 
+        roleSpan.style.opacity = 1;
+
+        // animate sliding in
+        roleSpan.animate(
+            [
+                { transform: "translateX(100%)", opacity: 0 },
+                { transform: "translateX(0)", opacity: 1 }
+            ],
+            { duration: 600, easing: "ease-out", fill: "forwards" }
+        );
+
+        index = (index + 1) % roles.length;
+    }, 300);
+}
+
+showRole();
+setInterval(showRole, 3000);
