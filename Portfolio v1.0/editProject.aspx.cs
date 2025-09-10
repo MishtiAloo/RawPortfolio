@@ -7,8 +7,7 @@ namespace Portfolio_v1._0
 {
     public partial class WebForm6 : System.Web.UI.Page
     {
-        // These properties are used by your .aspx inline expressions:
-        // value="<%= ImageUrl %>" and textarea content "<%= Description %>"
+       
         public int ProjectId { get; set; }
         public string ImageUrl { get; set; } = "";
         public string Title { get; set; } = "";
@@ -20,10 +19,10 @@ namespace Portfolio_v1._0
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Use HTTP method (GET / POST) because you're using plain HTML form elements
+            
             if (Request.HttpMethod.Equals("GET", StringComparison.OrdinalIgnoreCase))
             {
-                // Initial load: read id from querystring and populate form
+             
                 if (int.TryParse(Request.QueryString["id"], out int id) && id > 0)
                 {
                     LoadProject(id);

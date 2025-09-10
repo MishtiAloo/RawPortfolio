@@ -7,7 +7,19 @@
       "RelativeMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|solutionrelative:main.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|e:\\vsc projects\\mern prac\\rawportfolio\\portfolio v1.0\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|e:\\vsc projects\\mern prac\\rawportfolio\\portfolio v1.0\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|solutionrelative:admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|e:\\vsc projects\\mern prac\\rawportfolio\\portfolio v1.0\\editproject.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|solutionrelative:editproject.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|e:\\vsc projects\\mern prac\\rawportfolio\\portfolio v1.0\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A1EABD8C-DF03-4178-8F0D-2483BFF173B8}|Portfolio v1.0.csproj|solutionrelative:main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -18,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "admin.aspx",
+              "DocumentMoniker": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\admin.aspx",
+              "RelativeDocumentMoniker": "admin.aspx",
+              "ToolTip": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\admin.aspx",
+              "RelativeToolTip": "admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-10T04:23:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "editProject.aspx.cs",
+              "DocumentMoniker": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\editProject.aspx.cs",
+              "RelativeDocumentMoniker": "editProject.aspx.cs",
+              "ToolTip": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\editProject.aspx.cs",
+              "RelativeToolTip": "editProject.aspx.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwB8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T04:21:59.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\login.aspx.cs",
+              "RelativeDocumentMoniker": "login.aspx.cs",
+              "ToolTip": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\login.aspx.cs",
+              "RelativeToolTip": "login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T04:21:17.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.js",
               "DocumentMoniker": "E:\\VSC projects\\MERN Prac\\RawPortfolio\\Portfolio v1.0\\main.js",
               "RelativeDocumentMoniker": "main.js",
@@ -30,8 +81,7 @@
               "RelativeToolTip": "main.js",
               "ViewState": "AgIAALcAAAAAAAAAAAAswMcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-08T11:42:59.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T11:42:59.186Z"
             },
             {
               "$type": "Document",

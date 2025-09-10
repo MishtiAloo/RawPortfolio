@@ -13,20 +13,20 @@ namespace Portfolio_v1._0
             HttpCookie adminCookie = Request.Cookies["AdminUser"];
             if (adminCookie != null)
             {
-                // Optionally, validate cookie values
+      
                 if (!string.IsNullOrEmpty(adminCookie["AdminId"]))
                 {
-                    // Initialize session from cookie
+
                     Session["AdminId"] = adminCookie["AdminId"];
                     Session["AdminName"] = adminCookie["AdminName"];
 
-                    // Redirect to admin panel
+
                     Response.Redirect("admin.aspx");
                     return; // stop further processing
                 }
             }
 
-            // ----- FORM POST HANDLING -----
+
             if (Request.HttpMethod == "POST" && Request.Form["action"] == "login")
             {
                 AuthenticateAdmin();
@@ -57,17 +57,17 @@ namespace Portfolio_v1._0
 
                 if (reader.Read())
                 {
-                    string storedPassword = reader["PasswordHash"].ToString(); // plaintext
+                    string storedPassword = reader["PasswordHash"].ToString(); 
                     int adminId = Convert.ToInt32(reader["AdminId"]);
                     string fullName = reader["FullName"].ToString();
 
                     if (password == storedPassword)
                     {
-                        // ----- SESSION -----
+             
                         Session["AdminId"] = adminId;
                         Session["AdminName"] = fullName;
 
-                        // ----- COOKIE -----
+             
                         HttpCookie newCookie = new HttpCookie("AdminUser");
                         newCookie["AdminId"] = adminId.ToString();
                         newCookie["AdminName"] = fullName;

@@ -53,7 +53,7 @@
                                     <a class="animated-links" href='<%# Eval("WebsiteLink") %>' style="color: #ff014f">Website</a>
                                 </div>
                                 <div class="project-card-mini-rows" style="margin-left: auto">
-                                    <!-- HTML button -->
+                                 
                                     <button type="button" style="background-color: green" runat="server" onserverclick="EditProject_Click" data-id='<%# Eval("ProjectId") %>'>Edit</button>
                                     <button type="button" runat="server" onserverclick="DeleteProject_Click" data-id='<%# Eval("ProjectId") %>'>Delete</button>
                                     
